@@ -1,0 +1,1 @@
+set DEBUG=debug:* & nodemon app.js 

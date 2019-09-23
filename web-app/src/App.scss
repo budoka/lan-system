@@ -1,0 +1,33 @@
+@import '~antd/dist/antd.css';
+//@import '../../theme.scss'; // variables to override above
+
+body {
+  .ant-layout {
+    background: #1088e9;
+  }
+
+  .ant-layout-content {
+    background: #f0f2f5;
+    margin: 5% 25%; 
+    flex: none;
+  }
+
+  .ant-pagination.ant-table-pagination {
+    float: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .ant-back-top-content {
+    color: #fff;
+  }
+
+  .ant-back-top {
+    right: 40px;
+    bottom: 40px;
+  }
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
